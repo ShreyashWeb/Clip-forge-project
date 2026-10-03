@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-forge-950 text-forge-100 font-sans selection:bg-crimson-600 selection:text-white;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0C0E14;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #262D3E;
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #EF4444;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-forge-900/80 backdrop-blur-xl border border-forge-700/60 shadow-glass-card;
+  }
+
+  .glass-card {
+    @apply bg-forge-850/90 backdrop-blur-md border border-forge-700/50 rounded-xl transition-all duration-200;
+  }
+
+  .glass-card-hover {
+    @apply hover:border-crimson-500/40 hover:bg-forge-800/90 hover:shadow-glow-crimson transition-all duration-300;
+  }
+
+  .glass-input {
+    @apply bg-forge-900/90 border border-forge-700/80 rounded-xl px-4 py-2.5 text-forge-100 placeholder-forge-500 focus:outline-none focus:border-crimson-500 focus:ring-1 focus:ring-crimson-500 transition-all text-sm;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-medium text-sm text-white bg-gradient-to-r from-crimson-600 to-crimson-500 hover:from-crimson-500 hover:to-crimson-400 active:scale-[0.98] shadow-lg shadow-crimson-900/30 hover:shadow-glow-crimson transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-none;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-medium text-sm text-forge-200 bg-forge-800 hover:bg-forge-750 hover:text-white border border-forge-700/70 active:scale-[0.98] transition-all duration-200 disabled:opacity-50;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-3 py-2 rounded-lg font-medium text-sm text-forge-300 hover:text-white hover:bg-forge-800/60 transition-all duration-150;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider;
+  }
+
+  .badge-crimson {
+    @apply bg-crimson-950/80 text-crimson-400 border border-crimson-700/40;
+  }
+
+  .badge-emerald {
+    @apply bg-emerald-950/80 text-emerald-400 border border-emerald-700/40;
+  }
+
+  .badge-amber {
+    @apply bg-amber-950/80 text-amber-400 border border-amber-700/40;
+  }
+
+  .badge-purple {
+    @apply bg-purple-950/80 text-purple-400 border border-purple-700/40;
+  }
+
+  .badge-cyan {
+    @apply bg-cyan-950/80 text-cyan-400 border border-cyan-700/40;
+  }
+
+  .badge-slate {
+    @apply bg-forge-800 text-forge-300 border border-forge-700;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-forge-100 to-forge-400;
+  }
+
+  .gradient-crimson-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-crimson-400 via-rose-400 to-amber-300;
+  }
+
+  .glow-border {
+    position: relative;
+  }
+  .glow-border::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.4), transparent 60%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+
+/* Custom range inputs */
+input[type="range"] {
+  accent-color: #EF4444;
+}
+
+/* Timeline grid & playhead */
+.timeline-track-grid {
+  background-size: 40px 100%;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
