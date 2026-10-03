@@ -122,7 +122,7 @@ class MockAIServiceImpl implements AIService {
         `Empirical data: Why research-backed architecture outperforms naive implementations.`,
         `Creator insight: The human-in-the-loop control layer that keeps systems secure.`
       ],
-      callToAction: params.cta || 'Save this video and follow ClipForage for research-backed AI production.',
+      callToAction: params.cta || 'Save this video and follow ClipForge for research-backed AI production.',
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString()
     };
@@ -275,10 +275,10 @@ class MockAIServiceImpl implements AIService {
         id: 'sec-cta',
         type: 'CTA',
         title: 'Call to Action (39 - 44s)',
-        content: brief.callToAction || 'Follow ClipForage for research-backed AI engineering breakdowns.',
+        content: brief.callToAction || 'Follow ClipForge for research-backed AI engineering breakdowns.',
         estimatedSeconds: 5,
         wordCount: 10,
-        suggestedBrollPrompt: `ClipForage brand badge with animated subscribe button and red rim light`
+        suggestedBrollPrompt: `ClipForge brand badge with animated subscribe button and red rim light`
       }
     ];
 
@@ -362,7 +362,7 @@ class MockAIServiceImpl implements AIService {
       youtubeShorts: {
         title: `${projectTitle} #Shorts #Tech #AI`,
         tags: ['AI Agents', 'Software Engineering', 'Coding', 'Tech Trends 2026', 'Programming'],
-        description: `Research-backed short breakdown on ${projectTitle}.\n\nAngle: ${angle}\nCreated with ClipForage AI (Human-in-the-loop production).`
+        description: `Research-backed short breakdown on ${projectTitle}.\n\nAngle: ${angle}\nCreated with ClipForge AI (Human-in-the-loop production).`
       },
       instagramReels: {
         caption: `Stop building AI chatbots. In 2026, autonomous agentic loops are changing how software gets engineered. 🚀\n\nFull research breakdown in the reel. Drop a comment with your thoughts! 👇`,
@@ -370,7 +370,7 @@ class MockAIServiceImpl implements AIService {
       },
       tiktok: {
         caption: `Why AI agents are not just autocomplete in 2026 🤯 #coding #developer #ai #tech #learnontiktok`,
-        soundRecommendation: 'Cyber Pulse Lofi Tech Bed (Original ClipForage)',
+        soundRecommendation: 'Cyber Pulse Lofi Tech Bed (Original ClipForge)',
         hashtags: ['#coding', '#developer', '#aiagents', '#technology', '#software']
       }
     };

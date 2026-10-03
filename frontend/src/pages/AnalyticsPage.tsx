@@ -162,7 +162,7 @@ export const AnalyticsPage: React.FC = () => {
           </div>
           <div className="flex items-center gap-4 text-xs font-mono">
             <span className="flex items-center gap-1.5 text-crimson-400 font-bold">
-              <span className="w-3 h-3 rounded bg-crimson-500" /> ClipForage AI Short
+              <span className="w-3 h-3 rounded bg-crimson-500" /> ClipForge AI Short
             </span>
             <span className="flex items-center gap-1.5 text-forge-500">
               <span className="w-3 h-3 rounded bg-forge-700" /> Industry Average
@@ -191,7 +191,7 @@ export const AnalyticsPage: React.FC = () => {
                 labelFormatter={(v) => `Timestamp: ${v}s`}
                 formatter={(value: any, name: any) => [
                   `${value}%`,
-                  name === 'percentage' ? 'ClipForage Short' : 'Industry Average',
+                  name === 'percentage' ? 'ClipForge Short' : 'Industry Average',
                 ]}
               />
               <Area

@@ -334,7 +334,7 @@ export const VideoEditorPage: React.FC = () => {
                 </span>
               </div>
               <p className="text-xs text-forge-300 leading-relaxed">
-                ClipForage AI automatically aligned your B-roll cuts with the vocal cadence of your script.
+                ClipForge AI automatically aligned your B-roll cuts with the vocal cadence of your script.
               </p>
               <Button size="sm" variant="ai" className="w-full" onClick={handleAutoAssemble}>
                 Re-Sync Cuts with Pacing
@@ -352,7 +352,7 @@ export const VideoEditorPage: React.FC = () => {
             onTogglePlay={() => setIsPlaying(!isPlaying)}
             onSeek={(t) => setCurrentTime(t)}
             timeline={timeline}
-            projectTitle={activeProject?.title || 'ClipForage AI Short'}
+            projectTitle={activeProject?.title || 'ClipForge AI Short'}
           />
         </div>
       </div>

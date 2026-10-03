@@ -51,7 +51,7 @@ export const LandingPage: React.FC = () => {
               <Flame className="w-5 h-5 text-white" />
             </div>
             <div className="flex items-center gap-2">
-              <span className="font-extrabold text-white text-lg tracking-wider font-display">CLIPFORAGE</span>
+              <span className="font-extrabold text-white text-lg tracking-wider font-display">CLIPFORGE</span>
               <span className="text-[10px] bg-crimson-950 text-crimson-400 font-bold px-1.5 py-0.5 rounded border border-crimson-700/40">AI</span>
             </div>
           </div>
@@ -185,7 +185,7 @@ export const LandingPage: React.FC = () => {
               </ul>
             </div>
 
-            {/* The ClipForage AI Way */}
+            {/* The ClipForge AI Way */}
             <div className="p-8 rounded-3xl bg-gradient-to-br from-forge-850 via-forge-900 to-crimson-950/30 border border-crimson-500/50 shadow-glow-crimson space-y-6">
               <div className="flex items-center gap-2 text-crimson-400 font-bold text-sm uppercase tracking-wider">
                 <Sparkles className="w-4 h-4" />
@@ -308,7 +308,7 @@ export const LandingPage: React.FC = () => {
               THE 7-PHASE PIPELINE
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white font-display">
-              How ClipForage AI Produces Shorts
+              How ClipForge AI Produces Shorts
             </h2>
             <p className="text-forge-400 max-w-xl mx-auto text-sm">
               Click through the stages to see how idea transforms into publish-ready video.
@@ -370,13 +370,13 @@ export const LandingPage: React.FC = () => {
                 "AI-Generated Does Not Mean Unchecked."
               </h2>
               <p className="text-xs sm:text-sm text-emerald-300">
-                ClipForage AI automatically flags unverified claims and provides peer-reviewed source rewrites.
+                ClipForge AI automatically flags unverified claims and provides peer-reviewed source rewrites.
               </p>
             </div>
           </div>
 
           <p className="text-sm text-forge-300 leading-relaxed">
-            The platform is explicitly designed with fact-checking guardrails. When an unverified or hyperbolic claim is detected (e.g. "AI will replace all coders in 30 days"), ClipForage flags it as <span className="text-amber-400 font-bold">Needs Review</span> and suggests a research-backed rewrite with source citations.
+            The platform is explicitly designed with fact-checking guardrails. When an unverified or hyperbolic claim is detected (e.g. "AI will replace all coders in 30 days"), ClipForge flags it as <span className="text-amber-400 font-bold">Needs Review</span> and suggests a research-backed rewrite with source citations.
           </p>
 
           <div className="p-4 rounded-2xl bg-forge-950 border border-forge-800 flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -404,7 +404,7 @@ export const LandingPage: React.FC = () => {
             onClick={() => navigate('/create')}
             className="inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl font-extrabold text-base text-white bg-gradient-to-r from-crimson-600 to-rose-500 hover:from-crimson-500 hover:to-rose-400 shadow-glow-crimson transition-all"
           >
-            <span>Launch ClipForage Studio</span>
+            <span>Launch ClipForge Studio</span>
             <ArrowRight className="w-5 h-5" />
           </button>
         </div>
@@ -412,7 +412,7 @@ export const LandingPage: React.FC = () => {
 
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-forge-800 text-center text-xs text-forge-500 font-mono">
-        ClipForage AI © 2026 — Research-backed short-form video production platform. Powered by Google Gemini & ElevenLabs.
+        ClipForge AI © 2026 — Research-backed short-form video production platform. Powered by Google Gemini & ElevenLabs.
       </footer>
     </div>
   );

@@ -26,7 +26,7 @@ export const RegisterPage: React.FC = () => {
     setIsLoading(true);
     try {
       await register(name, email, password);
-      showToast({ type: 'success', title: 'Account Created!', message: 'Welcome to ClipForage AI Creator Studio.' });
+      showToast({ type: 'success', title: 'Account Created!', message: 'Welcome to ClipForge AI Creator Studio.' });
       navigate('/dashboard');
     } catch (err) {
       showToast({ type: 'error', title: 'Registration Failed', message: 'Could not complete registration.' });
@@ -45,7 +45,7 @@ export const RegisterPage: React.FC = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-crimson-500 to-crimson-700 flex items-center justify-center shadow-glow-crimson group-hover:scale-105 transition-transform">
               <Flame className="w-6 h-6 text-white" />
             </div>
-            <span className="font-black text-white text-2xl tracking-wider font-display">CLIPFORAGE AI</span>
+            <span className="font-black text-white text-2xl tracking-wider font-display">CLIPFORGE AI</span>
           </Link>
           <p className="text-xs text-forge-400">
             Create your creator account and start producing research-backed shorts.

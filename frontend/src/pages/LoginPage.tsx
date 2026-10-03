@@ -24,7 +24,7 @@ export const LoginPage: React.FC = () => {
     setIsLoading(true);
     try {
       await login(email, password);
-      showToast({ type: 'success', title: 'Welcome Back!', message: 'Signed in successfully to ClipForage Studio.' });
+      showToast({ type: 'success', title: 'Welcome Back!', message: 'Signed in successfully to ClipForge Studio.' });
       navigate('/dashboard');
     } catch (err) {
       showToast({ type: 'error', title: 'Sign In Failed', message: 'Invalid credentials provided.' });
@@ -51,7 +51,7 @@ export const LoginPage: React.FC = () => {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-crimson-500 to-crimson-700 flex items-center justify-center shadow-glow-crimson group-hover:scale-105 transition-transform">
               <Flame className="w-6 h-6 text-white" />
             </div>
-            <span className="font-black text-white text-2xl tracking-wider font-display">CLIPFORAGE AI</span>
+            <span className="font-black text-white text-2xl tracking-wider font-display">CLIPFORGE AI</span>
           </Link>
           <p className="text-xs text-forge-400">
             Sign in to access your research-backed short video production workspace.

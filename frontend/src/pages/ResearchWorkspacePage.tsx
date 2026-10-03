@@ -168,7 +168,7 @@ export const ResearchWorkspacePage: React.FC = () => {
               Fact-Checking Guardrails Active
             </h3>
             <p className="text-[11px] text-cyan-300">
-              ClipForage flags exaggerated assertions and suggests peer-reviewed rewrites with direct citations.
+              ClipForge flags exaggerated assertions and suggests peer-reviewed rewrites with direct citations.
             </p>
           </div>
         </div>

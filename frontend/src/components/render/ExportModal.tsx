@@ -34,7 +34,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({ isOpen, onClose, proje
   };
 
   const ytTitle = `${project.title} #Shorts #Tech #AI`;
-  const ytDesc = `Research-backed breakdown on ${project.title}.\n\nUnique Angle: ${project.brief?.uniqueAngle || 'Engineering Deep-Dive'}\n\nProduced with ClipForage AI (Research-backed short video production).`;
+  const ytDesc = `Research-backed breakdown on ${project.title}.\n\nUnique Angle: ${project.brief?.uniqueAngle || 'Engineering Deep-Dive'}\n\nProduced with ClipForge AI (Research-backed short video production).`;
   const igCaption = `Stop thinking about AI as just a chatbot. In 2026, autonomous agentic loops change everything.\n\nFull research breakdown above 👆\n\n#aiagents #softwaredev #coding #techtrends #clipforge`;
   const ttCaption = `Why AI agents are not just autocomplete in 2026 🤯 #coding #developer #ai #tech #learnontiktok`;
 

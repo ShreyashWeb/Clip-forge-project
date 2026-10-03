@@ -313,10 +313,10 @@ export const INITIAL_DEMO_PROJECT: Project = {
         id: 'sec-6',
         type: 'CTA',
         title: 'Call to Action (39 - 44s)',
-        content: 'Subscribe to ClipForage for research-backed AI insights that cut through the hype.',
+        content: 'Subscribe to ClipForge for research-backed AI insights that cut through the hype.',
         estimatedSeconds: 4,
         wordCount: 11,
-        suggestedBrollPrompt: 'Sleek ClipForage branded animated subscribe watermark with red neon glow'
+        suggestedBrollPrompt: 'Sleek ClipForge branded animated subscribe watermark with red neon glow'
       }
     ]
   },
@@ -553,10 +553,10 @@ export const MOCK_PROJECTS_LIST: Project[] = [
           id: 'sec-q4',
           type: 'CTA',
           title: 'Outro (28 - 42s)',
-          content: 'Follow ClipForage for science breakdowns that cut right through the hype.',
+          content: 'Follow ClipForge for science breakdowns that cut right through the hype.',
           estimatedSeconds: 5,
           wordCount: 11,
-          suggestedBrollPrompt: 'ClipForage animated neon badge'
+          suggestedBrollPrompt: 'ClipForge animated neon badge'
         }
       ]
     },
@@ -721,7 +721,7 @@ export const MOCK_PROJECTS_LIST: Project[] = [
           id: 'sec-pg4',
           type: 'CTA',
           title: 'Outro (45 - 55s)',
-          content: 'Follow ClipForage for real database engineering breakdowns that level up your architecture.',
+          content: 'Follow ClipForge for real database engineering breakdowns that level up your architecture.',
           estimatedSeconds: 5,
           wordCount: 13,
           suggestedBrollPrompt: 'Sleek dark mode database architect dashboard with glowing metrics'
@@ -849,7 +849,7 @@ export const MOCK_PROJECTS_LIST: Project[] = [
           content: 'True mastery requires deliberate practice: immediate feedback, discomfort, and relentless error correction. Follow for more research.',
           estimatedSeconds: 6,
           wordCount: 17,
-          suggestedBrollPrompt: 'ClipForage red glowing verified badge and subscribe button'
+          suggestedBrollPrompt: 'ClipForge red glowing verified badge and subscribe button'
         }
       ]
     },

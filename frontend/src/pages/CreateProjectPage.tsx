@@ -116,7 +116,7 @@ export const CreateProjectPage: React.FC = () => {
           Forge a Unique Short Video Brief
         </h1>
         <p className="text-xs sm:text-sm text-forge-400 max-w-lg mx-auto">
-          Generic AI tools produce generic scripts. ClipForage first nails your unique angle and research context.
+          Generic AI tools produce generic scripts. ClipForge first nails your unique angle and research context.
         </p>
       </div>
 

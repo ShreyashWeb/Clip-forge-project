@@ -48,7 +48,7 @@ export const SettingsPage: React.FC = () => {
       showToast({
         type: 'ai',
         title: 'Mock Engine Active',
-        message: 'No external key provided. ClipForage will use the zero-latency Mock AI Service provider.',
+        message: 'No external key provided. ClipForge will use the zero-latency Mock AI Service provider.',
       });
     }
   };
@@ -64,7 +64,7 @@ export const SettingsPage: React.FC = () => {
       showToast({
         type: 'ai',
         title: 'Synthetic Voice Active',
-        message: 'No ElevenLabs key provided. ClipForage is using realistic procedural audio synthesis.',
+        message: 'No ElevenLabs key provided. ClipForge is using realistic procedural audio synthesis.',
       });
     }
   };
@@ -98,7 +98,7 @@ export const SettingsPage: React.FC = () => {
               Zero-Configuration Hackathon Demo Mode
             </h3>
             <p className="text-[11px] text-purple-300">
-              API keys are optional! If omitted, ClipForage AI automatically uses high-fidelity mock AI research & synthetic voice providers without exposing secrets.
+              API keys are optional! If omitted, ClipForge AI automatically uses high-fidelity mock AI research & synthetic voice providers without exposing secrets.
             </p>
           </div>
         </div>

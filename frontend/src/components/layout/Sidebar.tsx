@@ -60,7 +60,7 @@ export const Sidebar: React.FC<{ isOpen?: boolean; onClose?: () => void }> = ({
             </div>
             <div>
               <div className="flex items-center gap-1.5">
-                <span className="font-extrabold text-white text-base tracking-wider font-display">CLIPFORAGE</span>
+                <span className="font-extrabold text-white text-base tracking-wider font-display">CLIPFORGE</span>
                 <span className="text-[10px] bg-crimson-950 text-crimson-400 font-bold px-1.5 py-0.5 rounded border border-crimson-700/40">AI</span>
               </div>
               <p className="text-[10px] text-forge-400 font-mono tracking-tight">RESEARCH COPILOT</p>
